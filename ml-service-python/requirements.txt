@@ -1,0 +1,5 @@
+# --- requirements.txt for ml-service-python (TensorFlow) ---
+fastapi>=0.100.0             # High-performance web framework for the API
+uvicorn[standard]>=0.20.0    # ASGI server to run FastAPI
+tensorflow>=2.14.0           # Google's machine learning framework
+numpy>=1.24.0                # Base scientific computing
