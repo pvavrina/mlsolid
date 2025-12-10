@@ -1,5 +1,8 @@
 syntax = "proto3";
 
+// CRITICAL: This defines the Go package name for the generated code.
+option go_package = "github.com/pvavrina/goml/api/mlservice";
+
 package mlsolid.v1;
 
 import "google/protobuf/timestamp.proto";

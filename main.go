@@ -30,10 +30,10 @@ func main() {
 		DB:       config.RedisDB,
 	})
 
-	err = redisClient.Ping(context.Background()).Err()
-	if err != nil {
-		panic(err)
-	}
+		err = redisClient.Ping(context.Background()).Err()
+		if err != nil {
+			panic(err)
+		}
 
 	objectStore, err := s3.NewStore(s3.StoreOps{
 		Bucket:          config.S3Bucket,
