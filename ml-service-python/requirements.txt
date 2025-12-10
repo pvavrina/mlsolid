@@ -3,3 +3,4 @@ fastapi>=0.100.0             # High-performance web framework for the API
 uvicorn[standard]>=0.20.0    # ASGI server to run FastAPI
 tensorflow>=2.14.0           # Google's machine learning framework
 numpy>=1.24.0                # Base scientific computing
+boto3==1.34.13               # AWS SDK for Python (used to communicate with MinIO S3)
